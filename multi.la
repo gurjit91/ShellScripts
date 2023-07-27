@@ -1,0 +1,9 @@
+#!/bin/bash
+# Script to Multiply of 2 numbers
+
+num1=10
+num2=20
+
+Ans=$((num1 * num2))
+ 
+ echo Ans 

@@ -1,0 +1,24 @@
+#!/bin/bash
+#Script to print the Country name of the entered City
+
+read -p "Enter the City:" Name
+
+if  [ "$Name" == "Delhi" ]
+
+then
+     Country="India"
+
+elif [ "$Name" == "Toronto" ]
+
+then 
+     Country="Canada"
+
+elif [ "$Name" == "New York" ]
+
+then
+    Country="us"
+else
+    Country="Country Not fount"
+fi
+
+echo Hello The $Country

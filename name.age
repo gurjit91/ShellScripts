@@ -1,0 +1,19 @@
+#!/bin/bash
+# Script to print the Age of the entered M/F Name
+
+read -p "Enter the M/F Name: " Name
+
+if [ "$Name" == "sunny" ]
+then
+    Age="19 Years old"
+elif [ "$Name" == "honey" ]
+then
+    Age="25 Years old"
+elif [ "$Name" == "bunny" ]
+then
+    Age="21 Years old"
+else
+    Age="Missing Age ?"
+fi
+
+echo Hello $Name is $Age 

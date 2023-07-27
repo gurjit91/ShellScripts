@@ -1,0 +1,9 @@
+#!/bin/bash
+# Script to subtract 2 numbers
+
+a=10
+b=500
+
+C=$((a * b))
+
+echo Ans $C
