@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #Script to check if the number is positive or negative or Zero
+#My Edit
 
 read -p "Enter a number: " num
 
